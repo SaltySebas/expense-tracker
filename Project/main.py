@@ -20,8 +20,6 @@ def main():
             save_transactions(account)# Save current transactions to account
             print("Transactions saved. Exiting the program.")
             break
-        elif user_choice == '2':
-            print(f"Current Balance : ${account.get_balance():.2f}")
         elif user_choice == '1':
             add_transaction(account)
         else:
